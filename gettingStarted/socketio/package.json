@@ -1,0 +1,34 @@
+{
+  "name": "learn-websocket",
+  "version": "1.0.0",
+  "description": "Learning Websocket using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raushanraja/node.git"
+  },
+  "keywords": [
+    "nodejs",
+    "websocket"
+  ],
+  "author": "raushanraja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raushanraja/node/issues"
+  },
+  "homepage": "https://github.com/raushanraja/node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "pug": "^2.0.3",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
