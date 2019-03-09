@@ -1,4 +1,4 @@
-## Chat Widget/App using Socket.io & nodejs
+# Chat Widget/App using Socket.io & nodejs
 
 ### node modules used
 - express
