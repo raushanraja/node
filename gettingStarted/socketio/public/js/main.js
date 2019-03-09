@@ -1,6 +1,13 @@
 let socket = io.connect('http://localhost:4500')
-
+let name=document.getElementById('newID')
 let submit = document.getElementById('submit');
+input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+      event.preventDefault();
+      document.getElementById("submit").click();
+    }
+  }); 
+
 submit.onclick = () => {
     let msg = document.getElementById('startadding')
     console.log(document.getElementById('message-to-send').value);
