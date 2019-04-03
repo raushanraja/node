@@ -1,1 +1,48 @@
 /* No CSS *//*# sourceMappingURL=style.css.map */
+html,body{
+    height: 100%!important;
+}
+
+body{
+    background: #4c4d52;
+}
+
+main{
+    height:100%;
+}
+
+sectionMain{
+    height:80% !important;
+}
+
+
+sideA{
+    background: #4e7399;
+    padding:2rem;
+}
+
+sideB{
+    background: #f8f8f8;
+    padding:2rem!important;
+}
+
+.field{
+    padding-top:.5rem!important;
+}
+
+section{
+    border-radius: 10px!important;
+}
+
+@media screen and (max-width:768px) and (min-width:400px){
+    main{
+        padding:1.5rem;
+    }
+}
+
+@media screen and (max-width:399px){
+    main{
+        padding:0.5rem;
+    }
+}
+

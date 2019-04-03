@@ -1,5 +1,26 @@
 extends layout
 
 block content
-    .main
-        p Hello
+        main
+            sectionMain.columns.is-vcentered
+                .column
+                            .columns.is-centered
+                                    sideA.column.is-5-tablet.is-3-desktop
+                                    sideB.column.is-5-tablet.is-3-desktop
+                                        .title.has-text-info LogIn
+                                        form(action="", method="post")
+                                            .field
+                                                .label Username
+                                                .control.has-icons-left
+                                                    input(type="text", name="username", placeholder="Username").input
+                                                    span.icon.is-small.is-left
+                                                        i.fa.fa-user
+                                            .field
+                                                .label Email
+                                                .control.has-icons-left
+                                                    input(type="email", name="email", placeholder="Email").input
+                                                    span.icon.is-small.is-left
+                                                        i.fa.fa-envelope
+                                            .field
+                                                .control
+                                                    button(type="submit").button.is-fullwidth.is-info Submit
