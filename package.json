@@ -1,0 +1,25 @@
+{
+  "name": "firebase_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raushanraja/node.git"
+  },
+  "keywords": [
+    "firebase-admin"
+  ],
+  "author": "raushanraja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raushanraja/node/issues"
+  },
+  "homepage": "https://github.com/raushanraja/node#readme",
+  "dependencies": {
+    "firebase-admin": "^8.9.2"
+  }
+}
