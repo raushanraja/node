@@ -1,0 +1,27 @@
+extends layout
+
+block content
+        main
+            sectionMain.columns.is-vcentered
+                .column
+                            .columns.is-centered
+                                    sideA.column.is-5-tablet.is-3-desktop
+                                    sideB.column.is-5-tablet.is-3-desktop
+                                        .title.has-text-info LogIn
+                                        form
+                                            .field
+                                                .label Email
+                                                .control.has-icons-left
+                                                    input(type="email", name="email", placeholder="Email" required).input#email
+                                                    span.icon.is-small.is-left
+                                                        i.fa.fa-envelope
+                                            .field
+                                                .label Password
+                                                .control.has-icons-left
+                                                    input(type="text", name="password", placeholder="password" required).input#password
+                                                    span.icon.is-small.is-left
+                                                        i.fa.fa-user
+                                            .field
+                                                .control
+                                                    button(type="submit").button.is-fullwidth.is-info#button Submit
+                                        
