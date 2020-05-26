@@ -1,4 +1,6 @@
 ### NodeAPP Template
++ Pug for html
++ Pulic folder for static css/images/scripts
 
 #### Morgan
 
