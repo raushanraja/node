@@ -1,0 +1,3 @@
+{
+  "mongoDBURL": "mongodb+srv://EXAMPE_DBURL_REPLACE_WITH_OWN_Writes=true&w=majority"
+}
